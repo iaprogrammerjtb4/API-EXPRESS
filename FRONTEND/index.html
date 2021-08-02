@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--include styles dependences -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/jsgrid/jsgrid.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jsgrid/theme.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">         
+    <!--incluide vue-->
+    <script src="./js/vue.global.js"></script>
+    <title>Stuff</title>
+</head>
+<body>
+    <div id="app">
+        <!--rendering app vue-->
+    </div>            
+    <!-- import app-->
+    <script src="./js/main.js"></script>              
+    <!--import componets-->
+    <script src="./js/components/view1.js"></script>    
+    <script src="./js/components/view2.js"></script>  
+    <!-- mount app-->
+    <script>        
+        const mountedApp = app.mount('#app');
+    </script>        
+</body>
+</html>

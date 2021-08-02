@@ -1,0 +1,18 @@
+{
+  "name": "i4digital",
+  "version": "1.0.0",
+  "description": "project for technical test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "iaprogrammer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
