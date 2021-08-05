@@ -1,6 +1,3 @@
-# iadigital
-project for technical test
-
 -- API REST con express
 -- Consumida mediante fetch
 -- Frontend esta hecho con bootstrap 4 y componentes vue 3 (FRONTEND/index.html)
